@@ -1,0 +1,1 @@
+poetry run uvicorn tests.fastapi.monitoredapi:testapp --reload

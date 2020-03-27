@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "watchapy"
+version = "0.1.0"
+description = ""
+authors = ["Luc Sorel-Giffo"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+fastapi = "^0.52.0"
+pylint = "^2.4.4"
+uvicorn = "^0.11.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
